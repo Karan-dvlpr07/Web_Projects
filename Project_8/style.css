@@ -1,0 +1,42 @@
+
+
+#Form {
+    margin: 20vh;
+    width: 250px;
+    border-radius: 5px;
+    border-color: 15px;
+}
+h1 {
+    text-align: center;
+}
+.User-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.User-input input {
+    padding: 5px;
+}
+.User-input input:focus {
+    outline: 0;
+}
+span {
+    color: orange;
+}
+.Btn {
+    text-align: center;
+    margin: 15px;
+}
+.Btn1 {
+    background-color: blue;
+    color: white;
+    border-width: 0px;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 15px;
+}
+.Btn1:hover {
+    color: white;
+    border-radius: 0px;
+    background-color: green;
+}
